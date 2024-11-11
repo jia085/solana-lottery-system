@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-close-btn {
+  background-color: #dc3545; /* Bootstrap 的紅色 (danger) 背景 */
+  color: white; /* 白色的叉叉 */
+  border: none; /* 移除邊框 */
+  border-radius: 50%; /* 讓按鈕呈現圓形 */
+  width: 24px; /* 調整按鈕大小 */
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-close-btn:hover {
+  background-color: #c82333; /* 深一點的紅色，當滑鼠懸停時顯示 */
+}
