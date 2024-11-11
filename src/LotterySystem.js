@@ -34,7 +34,7 @@ function LotterySystem() {
     <div className="container mt-5">
       {/* Header Section */}
       <header className="bg-primary text-white text-center py-4 mb-5 rounded">
-        <h1 className="mb-0">Blockchain Lottery System</h1>
+        <h1 className="mb-0">Lottery System</h1>
       </header>
 
       {/* Add Participant Section */}
